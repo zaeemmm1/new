@@ -15,8 +15,8 @@
 //             setLoading(true);
 //             setProgress(0)
 //             const [res1, res2] = await Promise.all([
-//                 fetch("http://localhost:3000/api/message/getAllConvo", { credentials: "include" }),
-//                 fetch("http://localhost:3000/api/users/myProfile", { credentials: "include" })
+//                 fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/message/getAllConvo", { credentials: "include" }),
+//                 fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/users/myProfile", { credentials: "include" })
 //             ]);
 
 //             if (res1.ok && res2.ok) {
@@ -110,8 +110,8 @@ export const useGetConversations = () => {
       setLoading(true);
       setProgress(0);
       const [res1, res2] = await Promise.all([
-        fetch("http://localhost:3000/api/message/getAllConvo", { credentials: "include" }),
-        fetch("http://localhost:3000/api/users/myProfile", { credentials: "include" })
+        fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/message/getAllConvo", { credentials: "include" }),
+        fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/users/myProfile", { credentials: "include" })
       ]);
 
       if (res1.ok && res2.ok) {
