@@ -71,7 +71,7 @@ const PORT = process.env.PORT || 5000;
 // CORS setup
 const corsOptions = {
   // origin: 'production' === 0 ? true : 'http://localhost:5173',
-  origin: 'production' === 0 ? true : 'https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/',
+  origin: 'production' === 0 ? true : 'https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev:5173',
 
   credentials: true, 
 };
