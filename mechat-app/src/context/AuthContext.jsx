@@ -18,7 +18,7 @@
 //     const checkUserSession = async () => {
 //       try {
 //         setLoading(true)
-//         const res = await fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/auth/checkUser", { credentials: 'include' }); 
+//         const res = await fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/api/auth/checkUser", { credentials: 'include' }); 
 //         const data = await res.json();
 
 //         if (res.ok) {
@@ -68,7 +68,7 @@ export const AuthContextProvider = ({ children }) => {
     const checkUserSession = async () => {
       try {
         setLoading(true);
-        const res = await fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/api/auth/checkUser", { credentials: 'include' });
+        const res = await fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev//api/auth/checkUser", { credentials: 'include' });
         
         if (res.ok) {
           const data = await res.json();

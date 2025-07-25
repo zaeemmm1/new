@@ -12,7 +12,7 @@ export const useLogout = () => {
 
         setLoading(true);
         try {
-            const res = await fetch('https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/auth/logout', {
+            const res = await fetch('https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/api/auth/logout', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 credentials: 'include'

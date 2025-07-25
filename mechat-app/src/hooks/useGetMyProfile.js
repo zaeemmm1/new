@@ -10,7 +10,7 @@ const useLogin = () => {
         const fetchMyProfileData = async () => {
             setLoading(true);
             try {
-                const res = await fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/users/myProfile", { credentials: 'include' });
+                const res = await fetch("https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/api/users/myProfile", { credentials: 'include' });
                 const data = await res.json();
 
                 if (res.ok) {

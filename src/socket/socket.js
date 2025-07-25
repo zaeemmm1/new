@@ -8,7 +8,7 @@ const server = http.createServer(app)
 const io = new Server(server, {
     cors: {
         // origin: ['http://localhost:5173'],
-        origin: ['https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev'],
+        origin: ['https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/'],
         methods: ["GET", "POST"],
         credentials: true
     }

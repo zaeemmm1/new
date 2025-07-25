@@ -17,7 +17,7 @@ const useSendMessage = () => {
     const reciverId = selectedConversation._id;
 
     try {
-      const res = await fetch(`https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.devapi/message/send/${reciverId}`, {
+      const res = await fetch(`https://a1d328b2-25e3-4ac3-bb52-fbd8bc1bd0d6-00-2xxsyfgxc6ftk.sisko.replit.dev/api/message/send/${reciverId}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message }),
